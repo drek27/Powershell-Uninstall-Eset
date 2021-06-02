@@ -17,8 +17,6 @@ $password = Read-Host "Enter the password for uninstallation of ESET Endpoint Se
 $start = Read-host "You keep them you ? [O] / [N]"
 if ( $start -eq 'O' ) {
 
-$namepc = Get-ComputerInfo CsCaption | Select-Object CsCaption 
-
 $uninstall64 = gci "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall" | foreach { gp $_.PSPath } | ? { $_ -match "ESET Endpoint Security" } | select UninstallString
 
 if ($uninstall64) {
@@ -45,7 +43,7 @@ if ($namelistappli -eq "Eset Management Agent" -and "ESET Endpoint Security" ){
     Write-Host "Eset Endpoint is not deleted" -BackgroundColor Black -ForegroundColor Green
 }
 else{
-    Restart-Computer -ComputerName $namepc
+    Restart-Computer
 }
 }
 Else{Write-Host "Bye !"}
