@@ -12,7 +12,7 @@ Write-Host `
 -ForegroundColor Yellow
 
 Write-Host "Make sure to launch the script from the Computer where you need to uninstall software " -ForegroundColor Red
-Read-Host "Enter the password for uninstallation of ESET Endpoint Security"
+$password = Read-Host "Enter the password for uninstallation of ESET Endpoint Security"
 
 $start = Read-host "You keep them you ? [O] / [N]"
 if ( $start -eq 'O' ) {

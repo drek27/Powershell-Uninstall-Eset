@@ -12,7 +12,7 @@ Write-Host `
 -ForegroundColor Yellow
 
 Write-Host "Assurez-vous de bien lancer le script depuis le Poste au quelle vous avez besoin de déinstaller un logiciel " -ForegroundColor Red
-Read-Host "Entré le mot de passe pour la déinstallation de ESET Endpoint Security"
+$password = Read-Host "Entré le mot de passe pour la déinstallation de ESET Endpoint Security"
 
 $start = Read-host "Vous les vous continuer ? [O] / [N]"
 if ( $start -eq 'O' ) {
