@@ -4,7 +4,7 @@ Write-Host `
 " _____________________________________
 |                                     |
 |      Script de Suppréssion ESET     |
-|      Endpoint Security + Agnet      |
+|      Endpoint Security + Agent      |
 |                                     |
 | (c) Drek_27                         |
 |                                     |

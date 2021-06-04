@@ -4,7 +4,7 @@ Write-Host `
 " _____________________________________
 |                                     |
 |        supresión Script ESET        |
-|      Endpoint Security + Agnet      |
+|      Endpoint Security + Agent      |
 |                                     |
 | (c) Drek_27                         |
 |                                     |

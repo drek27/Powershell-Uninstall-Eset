@@ -4,9 +4,9 @@ Write-Host `
 " _____________________________________
 |                                     |
 |          Delete Script ESET         |
-|      Endpoint Security + Agnet      |
+|      Endpoint Security + Agent      |
 |                                     |
-| (c) Drek_27                     |
+| (c) Drek_27                         |
 |                                     |
  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯" `
 -ForegroundColor Yellow
